@@ -7,6 +7,7 @@ If the input is 2, the program should print even and then print 2, 4, 6,
 8, 10, 12, 14, 16, 18, 20. Similarly, if the input is 1, the program should print odd and then print 1, 3, 5, 7, 9, 11, 13, 15, 17, 19.
 Your program should use the is_integer() method to display an error message if the input is a number with significant digits beyond the decimal point.
 
+
 def even_odd(num):
 if num % 2 == 0:
 print("even")
@@ -31,6 +32,9 @@ even_odd(2)
 
 even_odd_unnecessary(2)
 even_odd_unnecessary(9)
+
+
+
 Chapter 2.  Programming Challenge 2 page 55, Exploring a Quadratic Function Visually
 
 Quadratic function calculator
@@ -41,6 +45,8 @@ Assume values of x ux_values = [-1, 1, 2, 3, 4, 5] vfor x in x_values:
              # Calculate the value of the quadratic function
              y = x**2 + 2*x + 1
              print('x={0} y={1}'.format(x, y))
+             
+             
              
              
 Chapter 3.  Programming Challenge 2 page 89, Statistics Calculator
@@ -57,7 +63,7 @@ creating a series
 
 s = pd.Series(data = [5, 9, 8, 5, 7, 8, 1, 2, 3,
 
-                  4, 5, 6, 7, 8, 9, 5, 3]) 
+                ([ 4, 5, 6, 7, 8, 9, 5, 3]) 
 displaying the series
 
 print(s)
